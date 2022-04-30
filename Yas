@@ -315,16 +315,7 @@ Exit.TextScaled = true
 Exit.TextSize = 14.000
 Exit.TextWrapped = true
 Exit.MouseButton1Down:Connect(function()
-	local SPTSCFIST = script.Parent
-	local Exit = SPTSCFIST.Exit
-	local Main = SPTSCFIST.Main
-
-	Exit.MouseButton1Up:Connect(function()
-		print("MouseBUttonReleased")
-		Main.Visible = false
-		Exit.Visible = false
-		SPTSCFIST.Gradient.Visible = false
-	end)
+     print("Hello,the Exit button does not work,but if you want to make the gui to dissapear reset")
 end)
 
 
