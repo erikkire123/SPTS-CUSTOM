@@ -78,6 +78,8 @@ Main.Parent = SPTSCUSTOM
 Main.BackgroundColor3 = Color3.fromRGB(150, 3, 3)
 Main.Position = UDim2.new(0.587000012, 0, 0, -450)
 Main.Size = UDim2.new(0, 572, 0, 404)
+Main.Active = true
+Main.Draggable = true
 
 Second.Name = "Second"
 Second.Parent = Main
