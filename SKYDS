@@ -140,4 +140,12 @@ end
     PsychicSection:NewButton("1Qi Psychic Zone", "Teleports You To 1Qi Psychic Zone", function()
         game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-3286, 5683, 1646)
     end)
+
+
+    local Credits = Window:NewTab("Credits")
+    local CreditsSection = Credits:NewSection("Credits")
+    CreditsSection:NewLabel("Gui Made By Procar")
+    CreditsSection:NewLabel("Join The Discord Server For Leaks")
+    CreditsSection:NewLabel("discord.gg/T5vY3cUwpN")
+    
 end
