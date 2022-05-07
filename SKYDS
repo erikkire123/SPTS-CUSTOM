@@ -146,6 +146,6 @@ end
     local CreditsSection = Credits:NewSection("Credits")
     CreditsSection:NewLabel("Gui Made By Procar")
     CreditsSection:NewLabel("Join The Discord Server For Leaks")
-    CreditsSection:NewLabel("discord.gg/T5vY3cUwpN")
+    
     
 end
